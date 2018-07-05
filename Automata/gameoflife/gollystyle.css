@@ -1,0 +1,232 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+
+.bb-logo {
+  margin: 10px 0px 10px 0px;
+  width: 100%;
+  text-align: center;
+  font-family: "Arial";
+  font-size: 50px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  line-height: 38px;
+}
+
+.bb-logo-main {
+  display: none;
+}
+
+
+.button-loginreg {
+  text-decoration: none;
+  width: 250px;
+  background-color: DarkGray;
+  color: black;
+  padding: 4px 20px;
+  margin: 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "Arial";
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+.button-logout {
+  text-decoration: none;
+  width: 250px;
+  background-color: firebrick;
+  color: black;
+  padding: 4px 20px;
+  margin: 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "Arial";
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+.nav-wrapper input[type=text], .nav-wrapper input[type=password], select {
+  width: 50%;
+  padding: 6px 20px;
+  margin: 8px 0;
+  border-radius: 4px;
+  font-family: "Arial";
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+.login-fields {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.index-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+.main-container-text{
+  display: none;
+}
+
+.login-desktop{
+  display: none;
+}
+
+.login-mobile{
+  display: block;
+}
+
+.reg-text{
+  margin: 20px 40px;
+  font-family: "Arial";
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 25px;
+  text-align: justify;
+}
+
+.reg-img{
+  display: none;
+}
+
+.reg-text{
+  display: block;
+}
+
+.mainnav {
+  display: flex;
+  flex-flow: row;
+  text-align: center;
+  justify-content:space-between ;
+  margin: 30px 15px 30px 15px;
+}
+.mainnav-img{
+  width: 100%;
+}
+
+.user-main{
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+  justify-content:center ;
+  margin: 15px 15px 30px 15px;
+  font-family: "Arial";
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 25px;
+}
+
+.user-main-img{
+  width: 45%;
+}
+
+.user-main h2{
+
+  font-family: "Arial";
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  line-height: 25px;
+}
+
+.user-main table{
+  padding: 15px;
+}
+
+.user-main-search{
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+  justify-content:center ;
+  margin: 15px 15px 30px 15px;
+  font-family: "Arial";
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 25px;
+}
+
+.user-main-search input[type=text], select{
+  width: 82%;
+}
+
+.table-mobile{
+  width: 100%;
+  font-family: "Arial";
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+.table-desktop{
+  display: none;
+}
+/*
+DESKTOP
+*/
+
+h1{
+font-family: "Arial";
+font-size: 50px;
+font-weight: 700;
+letter-spacing: 5px;
+line-height: 50px;
+text-align: center;
+}
+
+.main-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: justify;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+}
+
+.text-box {
+  width: 45%;
+  text-align: justify;
+  font-family: "Arial";
+  font-size: 20px;
+}
+
+.image-box {
+  width: 95%;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
