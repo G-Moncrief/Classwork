@@ -1,5 +1,8 @@
 //GARRETT MONCRIEF
 //ASSIGNMENT 1
+//**NOTE** This project was intended to demonstrate what happens when 
+//process not properly synchronized...incorrect results are expected
+//not due to poor implementation 
 
 #include <stdio.h>
 #include <sys/types.h>
